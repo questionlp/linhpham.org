@@ -1,0 +1,70 @@
+@media only screen {
+    html, body {
+        background-color: #212121;
+        color: #fff;
+        font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+        font-size: 1.125rem;
+    }
+
+    a, a:link, a:hover, a:active {
+        color: #5091f1;
+    }
+
+    a:visited {
+        color: #3982EF;
+    }
+
+    #links a.button {
+        border: 1px solid #fff;
+        font-weight: 500;
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+        padding-bottom: 1.5rem !important;
+        padding-top: 1.5rem !important;
+        width: 90% !important;
+    }
+
+    #links div.container {
+        margin-top: 0.625rem;
+    }
+
+    #links a.button.is-link {
+        background-color: #212121;
+    }
+
+    #links a.button.is-link:hover {
+        background-color: #5091F1;
+        color: #212121;
+    }
+
+    #links div.buttons {
+        max-width: 800px !important;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 852px) {
+    #links div.container {
+        margin-top: 0.625rem;
+    }
+
+    #links a.button {
+        font-size: 0.9rem;
+    }
+}
+
+@media only print {
+    * {
+        background-color: initial !important;
+        color: initial !important;
+    }
+
+    section.hero {
+        page-break-after: always;
+    }
+
+    section.hero .card-content {
+        page-break-inside: avoid;
+    }
+}

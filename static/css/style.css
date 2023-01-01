@@ -13,7 +13,7 @@
     }
 
     a:hover {
-        text-decoration: underline dotted;
+        text-decoration: underline;
     }
 
     a:visited {
@@ -107,6 +107,29 @@
     #connect p.buttons a.button:active,
     #connect p.buttons a.button:visited {
         color: #000;
+    }
+
+    body#links-page {
+        background-color: #212121;
+    }
+
+    body#links-page #links a.button {
+        border: 1px solid #fff;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+        padding-bottom: 1.6rem !important;
+        padding-top: 1.6rem !important;
+        width: 72.5%;
+    }
+
+    body#links-page #links a.button.is-link {
+        background-color: #212121;
+    }
+
+    body#links-page #links a.button.is-link:hover {
+        background-color: #0d47a1;
     }
 }
 
