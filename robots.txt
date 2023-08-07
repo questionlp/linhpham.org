@@ -1,1 +1,4 @@
 Sitemap: https://linhpham.org/sitemap.xml
+
+User-agent: GPTBot
+Disallow: /
